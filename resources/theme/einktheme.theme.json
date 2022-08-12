@@ -1,11 +1,24 @@
 {
   "name": "Eink-theme",
   "author": "YourCompany",
-  "dark": true,
+  "dark": false,
+  "editorScheme": "/Eink.xml",
   "colors": {
-    "primaryRed": "#821010"
+    "primaryBlack": "#000000",
+    "primaryWhite": "#FFFFFF"
   },
   "ui": {
-    "Button.background": "primaryRed"
+    "Panel.background": "primaryWhite",
+    "*": {
+      "background": "primaryWhite",
+      "borderColor": "primaryBlack"
+    },
+    "Window.border": "4,4,4,4,000000"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Green": "primaryBlack",
+      "#DB5860": "#000000"
+    }
   }
 }
